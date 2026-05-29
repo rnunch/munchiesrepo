@@ -1,0 +1,10 @@
+﻿{
+  "name": "Suzanne",
+  "author": "gaming",
+  "description": "",
+  "file": "items",
+  "type": "item",
+  "scale": 27.2881,
+  "left":  { "bone": "items", "position": [-0.192286, 0.192928, -0.0605198], "rotation": [348.635, 241.987, 236.674] },
+  "right": { "bone": "items (1)", "position": [0.188416, -0.2127, 0.116467], "rotation": [35.3979, 75.9338, 293.348] }
+}
