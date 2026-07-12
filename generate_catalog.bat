@@ -1,30 +1,9 @@
 @echo off
-setlocal enabledelayedexpansion
-
-set OUTPUT=catalog.json
-set PATHS=
-
-echo Scanning for skin
-
-set COUNT=0
-set RESULT=[
-
-for /d %%C in (Costumes Accessories Items Plinths Emotes) do (
-    if exist "%%C" (
-        for /d %%S in ("%%C\*") do (
-            if exist "%%C\%%~nxS\info.json" (
-                if !COUNT! gtr 0 set RESULT=!RESULT!,
-                set RESULT=!RESULT!"%%C/%%~nxS"
-                set /a COUNT+=1
-                echo   found %%C/%%~nxS
-            )
-        )
-    )
+rem Writes catalog2.json — the whole skin list in one file so the mod loads it in a single request
+rem instead of fetching every folder's info.json (github rate-limits that burst). New repos only need
+rem this one file; the mod still reads the legacy flat catalog.json from older repos that predate it.
+if exist "%~dp0generate_catalog2.ps1" (
+    powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0generate_catalog2.ps1"
+) else (
+    echo generate_catalog2.ps1 not found next to this bat.
 )
-
-set RESULT=!RESULT!]
-
-echo !RESULT! > %OUTPUT%
-
-echo.
-echo Done... %COUNT% skin written to %OUTPUT%
