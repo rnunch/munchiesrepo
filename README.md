@@ -1,1 +1,4 @@
-it's just skins
+if hungry:
+
+&#x20;  eat()
+

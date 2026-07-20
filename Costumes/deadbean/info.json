@@ -1,8 +1,8 @@
-[
-{ "path": "Costumes/deadbean", "name": "Dead Fall Guy",
+﻿{
+  "name": "Dead Fall Guy",
   "author": "",
   "description": "inspired by dead fall guy from vs impostor Legacy.",
   "file": "deadbean",
   "type": "costume",
-  "keepBase": false }
-]
+  "keepBase": false
+}
