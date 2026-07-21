@@ -10,9 +10,9 @@
   "description": "",
   "file": "knifelegacy",
   "type": "accessory" },
-{ "path": "Accessories/knifething", "name": "Black's Knife",
-  "author": "",
-  "description": "knife from vs impostorlegacy",
+{ "path": "Accessories/knifething", "name": "KNOIFE",
+  "author": "VS Impostor Legacy",
+  "description": "",
   "file": "knifething",
   "type": "accessory" }
 ]
