@@ -1,7 +1,7 @@
 [
-{ "path": "Accessories/knifey", "name": "Knife",
-  "author": "",
-  "description": "from vs Impostor Legacy",
-  "file": "knifey",
+{ "path": "Accessories/knifelegacy", "name": "Knife",
+  "author": "vs Impostor Legacy",
+  "description": "",
+  "file": "knifelegacy",
   "type": "accessory" }
 ]
