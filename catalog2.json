@@ -1,4 +1,9 @@
 [
+{ "path": "Accessories/bruh", "name": "knife.",
+  "author": "gugu",
+  "description": "",
+  "file": "bruh",
+  "type": "accessory" },
 { "path": "Accessories/knifelegacy", "name": "Knife",
   "author": "vs Impostor Legacy",
   "description": "",
