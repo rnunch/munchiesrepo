@@ -1,7 +1,7 @@
-[
-{ "path": "Accessories/knife", "name": "Knife",
+﻿{
+  "name": "Knife",
   "author": "idk",
   "description": "from vs Impostor Legacy",
   "file": "knife",
-  "type": "accessory" }
-]
+  "type": "accessory"
+}
