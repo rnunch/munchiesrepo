@@ -1,8 +1,8 @@
-[
-{ "path": "Costumes/dedbenbean", "name": "dedbenbean",
+﻿{
+  "name": "dedbenbean",
   "author": "Inspired by",
   "description": "vs Impostor Legacy",
   "file": "dedbenbean",
   "type": "costume",
-  "keepBase": false }
-]
+  "keepBase": false
+}
