@@ -3,5 +3,10 @@
   "author": "idk",
   "description": "from vs Impostor Legacy",
   "file": "knife",
+  "type": "accessory" },
+{ "path": "Accessories/knifev4", "name": "knifev4",
+  "author": "idk",
+  "description": "from vs Impostor Legacy",
+  "file": "knifev4",
   "type": "accessory" }
 ]
